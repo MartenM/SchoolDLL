@@ -6,8 +6,6 @@
 
     Public Persoon
 
-
-
     Public Property voornaam() As String
         Get
             Return _voornaam
@@ -46,4 +44,9 @@
             Return (_leeftijd > 18)
         End Get
     End Property
+
+    Public Function verjaardag()
+        _leeftijd += 1
+        Return _leeftijd 'return nieuwe leeftijd
+    End Function
 End Class
