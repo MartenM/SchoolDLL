@@ -4,8 +4,6 @@
     Private _achternaam As String
     Private _leeftijd As Integer
 
-    Public Persoon
-
     Public Property voornaam() As String
         Get
             Return _voornaam
@@ -49,4 +47,5 @@
         _leeftijd += 1
         Return _leeftijd 'return nieuwe leeftijd
     End Function
+
 End Class
